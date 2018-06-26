@@ -2,7 +2,7 @@ library(shiny)
 library(dplyr)
 library(forecast)
 
-# Define server logic required to draw a histogram
+# Define server logic required to draw a histogram!
 shinyServer(function(input, output) {
   
   getProcessChange <- function() {
